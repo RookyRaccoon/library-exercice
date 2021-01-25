@@ -10,3 +10,5 @@ I used JWT token for a "mock" authentication service because I used in in a few 
 
 
 What I did not do: 
+Authorization, there is no proper checking of access rights for a user. I could have used OAuth2 to have a server checking for authorization. 
+

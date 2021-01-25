@@ -8,7 +8,11 @@ ACCESS = {
 class UserModel(db.Model):
     """
     Simple class modeling a user of the library website
-
+    A user is defined by: 
+        - id : unique id
+        - username, password : credentials 
+        - access : his access rights (library employee or simple user)
+        
     """
     __tablename__ = 'users'
 
